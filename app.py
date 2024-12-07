@@ -151,7 +151,7 @@ st.markdown("""
 
 # Upload your resume as PDF (User can download it)
 st.header("Download My Resume")
-with open("/Users/akshat/Downloads/resume.pdf", "rb") as pdf_file:
+with open("resume.pdf", "rb") as pdf_file:
     btn = st.download_button(
         label="Download Resume",
         data=pdf_file,
