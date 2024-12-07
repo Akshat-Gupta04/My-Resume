@@ -100,7 +100,7 @@ st.header("Education")
 st.markdown("""
     **B.Tech, Computer Science \& Engineering**  
     Bennett University, 2022-2026  
-    CGPA: 10.00/10
+    CGPA: 8.64/10
 """)
 
 # Certifications Section inside a box
@@ -159,12 +159,7 @@ with open("/Users/akshat/Downloads/resume.pdf", "rb") as pdf_file:
         mime="application/pdf",
         use_container_width=True
     )
-# # Upload your resume as PDF (User can download it)
-# st.header("Download My Resume")
-# with open("/Users/akshat/Downloads/resume.pdf", "rb") as pdf_file:
-#     btn = st.download_button(
-#         label="Download Resume",
-#         data=pdf_file,
+
 #         file_name="Akshat_Gupta_Resume.pdf",
 #         mime="application/pdf",
 #         use_container_width=True
